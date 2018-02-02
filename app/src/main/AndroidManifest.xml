@@ -17,8 +17,17 @@
             </intent-filter>
         </activity>
         <activity android:name=".Ex_2_5" />
-        <activity android:name=".Chapter06.Ch06MainActivity" />
-        <activity android:name=".Chapter06.Ch06Hierarchy"></activity>
+        <activity
+            android:name=".Chapter06.Ch06MainActivity"
+            android:theme="@style/MyAppTheme" />
+        <activity
+            android:name=".Chapter06.Ch06Hierarchy"
+            android:theme="@style/MyNoBar" />
+        <activity
+            android:name=".AnimationActivity"
+            android:theme="@style/MyAnimTheme" />
+        <activity android:name=".TextSwitcherActivity" />
+        <activity android:name=".ButtonAnimationActivity"></activity>
     </application>
 
 </manifest>

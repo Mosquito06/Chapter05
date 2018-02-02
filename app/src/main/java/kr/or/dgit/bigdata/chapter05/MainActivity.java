@@ -31,6 +31,16 @@ public class MainActivity extends AppCompatActivity {
             case R.id.eventHier:
                 intent.setClass(getApplicationContext(), Ch06Hierarchy.class);
                 break;
+            case R.id.animation:
+                intent.setClass(getApplicationContext(), AnimationActivity.class);
+                break;
+            case R.id.textSwitcher:
+                intent.setClass(getApplicationContext(), TextSwitcherActivity.class);
+                break;
+            case R.id.ButtonAnimation:
+                intent.setClass(getApplicationContext(), ButtonAnimationActivity.class);
+                break;
+
         }
         startActivity(intent);
 
