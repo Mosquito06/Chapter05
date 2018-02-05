@@ -27,7 +27,10 @@
             android:name=".AnimationActivity"
             android:theme="@style/MyAnimTheme" />
         <activity android:name=".TextSwitcherActivity" />
-        <activity android:name=".ButtonAnimationActivity"></activity>
+        <activity android:name=".ButtonAnimationActivity" />
+        <activity android:name=".LanguageActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            ></activity>
     </application>
 
 </manifest>

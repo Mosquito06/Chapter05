@@ -40,6 +40,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.ButtonAnimation:
                 intent.setClass(getApplicationContext(), ButtonAnimationActivity.class);
                 break;
+            case R.id.ButtonLanguage:
+                intent.setClass(getApplicationContext(), LanguageActivity.class);
+                break;
 
         }
         startActivity(intent);
